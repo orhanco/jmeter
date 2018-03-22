@@ -35,7 +35,7 @@
         </elementProp>
         <stringProp name="HTTPSampler.domain"></stringProp>
         <stringProp name="HTTPSampler.port"></stringProp>
-        <stringProp name="HTTPSampler.protocol">https</stringProp>
+        <stringProp name="HTTPSampler.protocol">http</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
@@ -47,7 +47,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="appUrl" elementType="Argument">
             <stringProp name="Argument.name">appUrl</stringProp>
-            <stringProp name="Argument.value">muzix-mongo.int-lyra-836.swisslab.io</stringProp>
+            <stringProp name="Argument.value">${__P(appUrl)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
