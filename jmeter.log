@@ -1,0 +1,219 @@
+2018-03-22 10:56:55,033 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-03-22 10:56:55,066 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/user.properties
+2018-03-22 10:56:55,067 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/system.properties
+2018-03-22 10:56:55,067 INFO o.a.j.JMeter: Setting JMeter property: influxdbUrl=http://influxdb.service.consul:9086/write?db=jmeter
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: java.version=1.8.0_25
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: os.arch=x86_64
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: os.version=10.13.3
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-03-22 10:56:55,075 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-03-22 10:56:55,076 INFO o.a.j.JMeter: Available Processors =8
+2018-03-22 10:56:55,082 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-03-22 10:56:55,082 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-03-22 10:56:55,082 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/4.0/libexec
+2018-03-22 10:56:55,082 INFO o.a.j.JMeter: user.dir  =/Users/orhancoskun/jmetergit
+2018-03-22 10:56:55,082 INFO o.a.j.JMeter: PWD       =/Users/orhancoskun/jmetergit
+2018-03-22 10:56:55,084 INFO o.a.j.JMeter: IP: 10.18.36.112 Name: EFSANE.local FullName: 10.18.36.112
+2018-03-22 10:56:55,088 INFO o.a.j.s.FileServer: Default base='/Users/orhancoskun/jmetergit'
+2018-03-22 10:56:55,102 INFO o.a.j.s.FileServer: Set new base='/Users/orhancoskun/jmetergit'
+2018-03-22 10:56:55,312 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-03-22 10:56:55,345 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-03-22 10:56:55,350 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-03-22 10:56:55,356 INFO o.a.j.s.SaveService: Loading file: yannick2.jmx
+2018-03-22 10:56:55,399 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-03-22 10:56:55,412 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-03-22 10:56:55,419 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-03-22 10:56:55,419 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-03-22 10:56:55,419 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-03-22 10:56:55,419 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-03-22 10:56:55,439 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-03-22 10:56:55,469 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-03-22 10:56:55,475 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-03-22 10:56:55,476 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-22 10:56:55,476 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-03-22 10:56:55,480 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-03-22 10:56:55,480 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-03-22 10:56:56,158 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2018-03-22 10:56:56,159 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2018-03-22 10:56:56,414 INFO o.a.j.JMeter: Running test (1521712616414)
+2018-03-22 10:56:56,468 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Continuously feed a mongo instance with spring music app
+2018-03-22 10:56:56,468 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Continuously feed a mongo instance with spring music app.
+2018-03-22 10:56:56,468 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-03-22 10:56:56,469 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-03-22 10:56:56,476 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-03-22 10:56:56,476 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-03-22 10:56:56,505 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:56:56,791 INFO o.a.j.t.JMeterThread: Thread started: Continuously feed a mongo instance with spring music app 1-1
+2018-03-22 10:56:56,814 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EFSANE.local
+2018-03-22 10:56:56,819 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-03-22 10:56:56,969 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-03-22 10:56:56,977 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-03-22 10:56:56,978 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-03-22 10:56:56,987 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-03-22 10:56:56,988 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-03-22 10:56:56,988 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-03-22 10:57:00,007 INFO o.a.j.r.Summariser: summary +     93 in 00:00:04 =   25.9/s Avg:    32 Min:     7 Max:   620 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:57:01,418 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:06,413 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:11,417 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:57:16,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:21,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:26,415 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:57:30,005 INFO o.a.j.r.Summariser: summary +   1978 in 00:00:30 =   65.9/s Avg:    14 Min:     6 Max:  1166 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:57:30,006 INFO o.a.j.r.Summariser: summary =   2071 in 00:00:34 =   61.6/s Avg:    15 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 10:57:31,413 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:36,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:41,413 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:57:46,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:51,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:57:56,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:58:00,002 INFO o.a.j.r.Summariser: summary +   2531 in 00:00:30 =   84.4/s Avg:    11 Min:     6 Max:  1127 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:58:00,003 INFO o.a.j.r.Summariser: summary =   4602 in 00:01:04 =   72.4/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 10:58:01,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:06,410 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:11,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:58:16,412 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:21,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:26,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:58:30,001 INFO o.a.j.r.Summariser: summary +   2168 in 00:00:30 =   72.3/s Avg:    13 Min:     6 Max:   308 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:58:30,001 INFO o.a.j.r.Summariser: summary =   6770 in 00:01:34 =   72.3/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 10:58:31,410 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:36,409 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:41,411 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:58:46,409 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:51,408 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:58:56,410 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:59:00,059 INFO o.a.j.r.Summariser: summary +   1779 in 00:00:30 =   59.2/s Avg:    16 Min:     6 Max:  1125 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:59:00,060 INFO o.a.j.r.Summariser: summary =   8549 in 00:02:04 =   69.1/s Avg:    14 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 10:59:01,408 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:06,407 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:11,407 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:59:16,409 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:21,407 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:26,409 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:59:30,001 INFO o.a.j.r.Summariser: summary +   2118 in 00:00:30 =   70.7/s Avg:    13 Min:     6 Max:  1010 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 10:59:30,003 INFO o.a.j.r.Summariser: summary =  10667 in 00:02:34 =   69.5/s Avg:    14 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 10:59:31,408 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:36,405 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:41,406 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:59:46,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 10:59:51,408 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 10:59:56,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:00,004 INFO o.a.j.r.Summariser: summary +   2342 in 00:00:30 =   78.1/s Avg:    12 Min:     6 Max:  1046 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:00:00,004 INFO o.a.j.r.Summariser: summary =  13009 in 00:03:04 =   70.9/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:00:01,405 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:06,405 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:00:11,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:16,403 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:21,405 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:00:26,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:30,121 INFO o.a.j.r.Summariser: summary +   2555 in 00:00:30 =   84.8/s Avg:    11 Min:     6 Max:   508 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:00:30,121 INFO o.a.j.r.Summariser: summary =  15564 in 00:03:34 =   72.8/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:00:31,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:36,407 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:00:41,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:46,402 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:00:51,410 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:00:56,403 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:00,008 INFO o.a.j.r.Summariser: summary +   1963 in 00:00:30 =   65.7/s Avg:    14 Min:     6 Max:   302 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:01:00,009 INFO o.a.j.r.Summariser: summary =  17527 in 00:04:04 =   72.0/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:01:01,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:06,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:01:11,403 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:16,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:21,403 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:01:26,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:30,006 INFO o.a.j.r.Summariser: summary +   2157 in 00:00:30 =   71.9/s Avg:    13 Min:     6 Max:  1129 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:01:30,006 INFO o.a.j.r.Summariser: summary =  19684 in 00:04:34 =   71.9/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:01:31,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:36,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:01:41,402 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:46,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:01:51,402 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:01:56,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:00,004 INFO o.a.j.r.Summariser: summary +   1972 in 00:00:30 =   65.7/s Avg:    14 Min:     6 Max:   290 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:02:00,006 INFO o.a.j.r.Summariser: summary =  21656 in 00:05:04 =   71.3/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:02:01,402 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:06,404 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:02:11,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:16,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:21,402 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:02:26,400 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:30,141 INFO o.a.j.r.Summariser: summary +   2139 in 00:00:30 =   71.0/s Avg:    13 Min:     6 Max:  1131 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:02:30,143 INFO o.a.j.r.Summariser: summary =  23795 in 00:05:34 =   71.3/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:02:31,400 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:36,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:02:41,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:46,401 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:02:51,400 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:02:56,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:00,004 INFO o.a.j.r.Summariser: summary +   1993 in 00:00:30 =   66.7/s Avg:    14 Min:     6 Max:   285 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:03:00,005 INFO o.a.j.r.Summariser: summary =  25788 in 00:06:04 =   70.9/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:03:01,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:03:06,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:11,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:16,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:03:21,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:26,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:30,004 INFO o.a.j.r.Summariser: summary +   2124 in 00:00:30 =   70.8/s Avg:    13 Min:     6 Max:  1008 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:03:30,005 INFO o.a.j.r.Summariser: summary =  27912 in 00:06:34 =   70.9/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:03:31,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:03:36,396 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:41,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:46,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:03:51,398 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:03:56,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:00,073 INFO o.a.j.r.Summariser: summary +   2480 in 00:00:30 =   82.5/s Avg:    11 Min:     6 Max:  1131 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:04:00,074 INFO o.a.j.r.Summariser: summary =  30392 in 00:07:04 =   71.7/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:04:01,399 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:04:06,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:11,395 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:16,396 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:04:21,394 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:26,395 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:30,040 INFO o.a.j.r.Summariser: summary +   2121 in 00:00:30 =   70.8/s Avg:    13 Min:     6 Max:   272 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:04:30,041 INFO o.a.j.r.Summariser: summary =  32513 in 00:07:34 =   71.7/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:04:31,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:04:36,396 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:41,396 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:46,394 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:04:51,393 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:04:56,394 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:00,003 INFO o.a.j.r.Summariser: summary +   2085 in 00:00:30 =   69.6/s Avg:    14 Min:     6 Max:   261 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:05:00,004 INFO o.a.j.r.Summariser: summary =  34598 in 00:08:04 =   71.5/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:05:01,394 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:05:06,393 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:11,397 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:05:16,395 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:21,392 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:26,395 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:05:30,009 INFO o.a.j.r.Summariser: summary +   2215 in 00:00:30 =   73.8/s Avg:    13 Min:     6 Max:  1146 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:05:30,010 INFO o.a.j.r.Summariser: summary =  36813 in 00:08:34 =   71.7/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:05:31,392 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:36,393 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:41,393 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:05:46,391 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:05:51,395 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:05:56,392 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:00,000 INFO o.a.j.r.Summariser: summary +   2408 in 00:00:30 =   80.3/s Avg:    12 Min:     6 Max:   260 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:06:00,001 INFO o.a.j.r.Summariser: summary =  39221 in 00:09:04 =   72.2/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:06:01,391 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:06,392 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:06:11,391 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:16,392 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:21,394 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:06:26,390 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:30,002 INFO o.a.j.r.Summariser: summary +   2042 in 00:00:30 =   68.1/s Avg:    14 Min:     6 Max:  1129 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2018-03-22 11:06:30,002 INFO o.a.j.r.Summariser: summary =  41263 in 00:09:34 =   71.9/s Avg:    13 Min:     6 Max:  1166 Err:     0 (0.00%)
+2018-03-22 11:06:31,390 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
+2018-03-22 11:06:36,393 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul: unknown error
+2018-03-22 11:06:41,390 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server : influxdb.service.consul
