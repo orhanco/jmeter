@@ -93,7 +93,7 @@
             </elementProp>
             <elementProp name="retentionPolicy" elementType="Argument">
               <stringProp name="Argument.name">retentionPolicy</stringProp>
-              <stringProp name="Argument.value">autogen</stringProp>
+              <stringProp name="Argument.value">jmeterpolicy</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="samplersList" elementType="Argument">
